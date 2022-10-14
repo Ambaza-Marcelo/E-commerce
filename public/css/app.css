@@ -1,0 +1,14 @@
+#footer{
+    text-align: center;
+}
+
+img:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px solid black;
+}
+
+#header{
+    border-radius: 10px solid black;
+    margin-top: 10px;
+}

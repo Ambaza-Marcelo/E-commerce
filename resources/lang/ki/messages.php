@@ -1,0 +1,60 @@
+<?php
+
+return[
+	'english' => 'Icongereza',
+	'french' => 'Igifaransa',
+	'kirundi' => 'Ikirundi',
+	'mail' => 'Ubutumwa',
+	'username' => 'izina',
+	'password' => 'Kode kabanga',
+	'rememberme' => 'Uranyibuke',
+	'forgotpwd' => 'Kode kabanga yibagiwe',
+	'login' => 'Kwinjira',
+	'mailrequired' => 'Utegerezwa kwandika izina',
+	'pwdrequired' => 'Utegerezwa kwandika kode',
+	'invalidmailorpwd' => 'Izina cinke Kode sivyo',
+	'or' => 'Canke',
+	'dashboard' => 'Ikibaho',
+	'home' => 'Ahushikira',
+	'logout' => 'Gusohoka',
+	'users' => 'Abinjiramwo',
+	'stock' => 'Ububiko',
+	'initialstock' => 'Ivyo dutanguranye',
+	'stockin' => 'Ivyinjiye',
+	'stocktotal' => 'Vyose Hamwe',
+	'article' => 'Ibidandazwa',
+	'admin' => 'Abadimini',
+	'roles'=> 'Ivyo bajejwe',
+	'permissions' => 'Ubushobozi',
+	'footer_admin' => 'Ubushobozi bwose bwasigajwe na Ambaza Marcellin',
+	'403' => 'Ntaburenganzira mufise',
+	'404' => 'Muradutunga!Ivyo mwasavye vyabuze',
+	'500' => 'Ikibazo ca seriveri',
+	'back_to_dashboard' => 'Gusubira Kukibaho',
+	'login_again' => 'Kwinjira Kandi',
+	'list' => 'Urutonde',
+	'create' => 'Kurema',
+	'admin_panel' => 'Ikibuga c\'adimini',
+	'user_create' => 'Kurema Uwukoresha',
+	'user_edit' => 'Guhindura Uwukuresha',
+	'role_create' => 'Kurema Ubushobozi',
+	'role_edit' => 'Guhindura Ubushobozi',
+	'address_create' => 'Kurema aho kuba',
+	'address_edit' => 'Guhindura aho kuba',
+	'virtualstock' => 'Ububiko',
+	'realstock' => 'Ububiko bw\'ukuri',
+	'stockin_create' => 'Kurema Ivyinjiye',
+	'article_create' => 'Kurema Igikoresho',
+	'setting' => 'parametere',
+	'setting_create' => 'kurema parametere',
+	'order' => 'Komande',
+	'customer' => 'Umuguzi',
+	'sale' => 'Kudandaza',
+
+
+
+];
+
+
+
+?>
