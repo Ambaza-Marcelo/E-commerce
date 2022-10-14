@@ -149,24 +149,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::post('/admin/system/db-backup','Backend\SettingController@postDbBackUp'
     )->name('admin.system.dbBackup');
 
-    //rapport general routes
-    Route::get('musumba-steel/rapportexamen-e-commerce/rapportGeneral','Backend\ReportController@rapportGeneral')->name('admin.musumba_cloud_stocks.rapportGeneral');
-    
-
-    //Export routes
-    Route::get('musumba-steel/stock-fournitures/article/export','Backend\ArticleController@get_article_data')->name('admin.article.export');
-    Route::get('musumba-steel/stock-fournitures/machine/export','Backend\MachineController@get_machine_data')->name('admin.machine.export');
-    Route::get('musumba-steel/stock-fournitures/stock/export','Backend\StockController@get_stock_data')->name('admin.stock.export');
-    Route::get('musumba-steel/stock-fournitures/stockin/export','Backend\StockinController@get_stockin_data')->name('admin.stockin.export');
-    Route::get('musumba-steel/stock-fournitures/stockout/export','Backend\StockoutController@get_stockout_data')->name('admin.stockout.export');
-
-    Route::get('musumba-steel/stock-fournitures/inventory/export','Backend\InventoryController@get_inventory_data')->name('admin.inventory.export');
-    Route::get('musumba-steel/stock-fournitures/machine-repairing/export','Backend\MachineRepairingController@get_machineRepairing_data')->name('admin.machine_repairing.export');
-    Route::get('musumba-steel/stock-fournitures/reception/export','Backend\ReceptionController@get_reception_data')->name('admin.reception.export');
-    Route::get('musumba-steel/stock-fournitures/purchase/export','Backend\PurchaseController@get_purchase_data')->name('admin.purchase.export');
-    Route::get('musumba-steel/stock-fournitures/report/export','Backend\ReportController@get_report_data')->name('admin.report.export');
-    Route::get('musumba-steel/stock-fournitures/machine/export','Backend\MachineController@get_machine_data')->name('admin.machine.export');
-    Route::get('musumba-steel/stock-fournitures/supplier/export','Backend\SupplierController@get_supplier_data')->name('admin.supplier.export');
     Route::get('/404/muradutunge/ivyomwasavye-ntibishoboye-kuboneka',function(){
         return view('errors.404');
 
