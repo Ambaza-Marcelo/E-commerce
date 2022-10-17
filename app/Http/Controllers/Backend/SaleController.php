@@ -110,7 +110,7 @@ class SaleController extends Controller
             $bon_no = "Fac".date("y").substr(number_format(time() * mt_rand(), 0, '', ''), 0, 6);
             $created_by = $this->user->name;
 
-            //$article_id2 = Stock::where('article_id', $article_id)->get('article_id');
+            //sales of multiple items
 
 
             for( $count = 0; $count < count($article_id); $count++ ){
