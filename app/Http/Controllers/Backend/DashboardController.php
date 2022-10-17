@@ -35,7 +35,7 @@ class DashboardController extends Controller
         if (is_null($this->user) || !$this->user->can('dashboard.view')) {
             abort(403, 'Sorry !! You are Unauthorized to view dashboard !');
         }
-
+        //dynamic chart
 
         $year = ['2022','2023','2024','2025'];
         
