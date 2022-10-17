@@ -75,6 +75,7 @@ class DashboardController extends Controller
             ))->with('year',json_encode($year,JSON_NUMERIC_CHECK))->with('stockout',json_encode($stockout,JSON_NUMERIC_CHECK))->with('stockin',json_encode($stockin,JSON_NUMERIC_CHECK));
     }
 
+    //change language function
     public function changeLang(Request $request){
         \App::setlocale($request->lang);
         session()->put("locale",$request->lang);
