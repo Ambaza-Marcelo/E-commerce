@@ -9,8 +9,8 @@ use Maatwebsite\Excel\Concerns\WithHeadingRow;
 class ArticlesImport implements ToModel
 {
     /**
-    * @param array $row
-    *
+    * @param array $row 
+    *import xls file of items
     * @return \Illuminate\Database\Eloquent\Model|null
     */
     public function model(array $row)
