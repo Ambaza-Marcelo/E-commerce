@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Article;
 class WelcomeController extends Controller
 {
-    //
+    //list items
     public function listProduct(){
     	$products = Article::all();
 
