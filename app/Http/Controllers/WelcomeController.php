@@ -12,7 +12,7 @@ class WelcomeController extends Controller
 
     	return view('welcome',compact('products'));
     }
-
+    //buy item
     public function buy($id){
     	$article = Article::where('id',$id)->first();
     	return view('buy',compact('article'));
