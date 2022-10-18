@@ -18,7 +18,7 @@ class Article extends Model
         'status',
         'created_by',
         'threshold_quantity',
-    	'category_rayon_id'
+    	'category_id'
     ];
 
 
