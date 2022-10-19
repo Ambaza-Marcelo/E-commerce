@@ -116,7 +116,7 @@
          $(this).parents('tr').remove();
     }); 
 
-
+    //dynamic select
     $('#paiement').change(function () { 
     if ($(this).val() === 'lumicash'){
       var telephone = "<div class='form-group'>"+
