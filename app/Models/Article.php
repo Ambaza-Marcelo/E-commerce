@@ -29,11 +29,11 @@ class Article extends Model
     public function stock(){
     	return $this->hasMany('App\Models\Stock','article_id');
     }
-
+    //stockinDetail has many items 
     public function stockinDetail(){
     	return $this->hasMany('App\Models\StockinDetail','article_id');
     }
-    //sales has maany items
+    //sales has many items
     public function saleDetail(){
     	return $this->hasMany('App\Models\SaleDetail','article_id');
     }
