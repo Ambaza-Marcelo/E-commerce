@@ -81,6 +81,7 @@
     </div>
     </div>
     <br>
+    <!-- footer -->
         <div class="jumbotron">
             <div>
                 <h1 id="footer">&copy;2022 | DESIGNED BY AMBAZA MARCELLIN</h1>
