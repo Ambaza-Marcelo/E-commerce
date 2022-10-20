@@ -24,6 +24,7 @@
 
             <br>
             <div class="row">
+                <!-- diplay products from database -->
                 @foreach($products as $product)
                 <div class="col-md-4">
                      <div class="single-discount-product mt-30">
