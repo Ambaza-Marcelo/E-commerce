@@ -14,6 +14,7 @@
             <div style="text-align: center;">
                 <h1 class="alert alert-info">EXAMEN E-COMMERCE</h1>
             </div>
+            <!-- menu -->
             <ul class="" style="display: flex;list-style: none;text-decoration: none;">
                 <li style="margin-left: 30%;"><a href="">Accueil</a></li>
                 <li style="margin-left: 50px;"><a href="">Produits</a></li>
