@@ -376,6 +376,7 @@ class SaleController extends Controller
 
     public function get_stockout_data()
     {
+        //export to excel
         return Excel::download(new StockoutExport, 'sorties.xlsx');
     }
 
