@@ -189,6 +189,7 @@ class SaleController extends Controller
                         $sale->save();
 
                         SaleDetail::insert($insert_data);
+                        //return redirect with success message
 
             session()->flash('success', 'Sale has been created !!');
             return redirect()->route('admin.sales.index');
