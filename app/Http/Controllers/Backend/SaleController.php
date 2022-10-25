@@ -391,11 +391,9 @@ class SaleController extends Controller
         if (is_null($this->user) || !$this->user->can('sales.delete')) {
             abort(403, 'Sorry !! You are Unauthorized to delete any sale !');
         }
-
+        //destroy sales by bon_no
 
         $sale = Sale::where('bon_no', $bon_no)->first();
-
-        //$stockoutDetails = SaleDetail::where('bon_no', $bon_no)->get('article_id','quantity');
 
 
         if (!is_null($sale)) {
