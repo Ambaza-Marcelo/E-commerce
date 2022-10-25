@@ -356,6 +356,7 @@ class SaleController extends Controller
         if (is_null($this->user) || !$this->user->can('sales.create')) {
             abort(403, 'Sorry !! You are Unauthorized!');
         }
+        //invoice create
         $setting = DB::table('settings')->orderBy('created_at','desc')->first();
         $datas = SaleDetail::where('bon_no', $bon_no)->get();
         $totalValue = DB::table('sale_details')
