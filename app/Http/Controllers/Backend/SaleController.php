@@ -26,7 +26,7 @@ use Excel;
 
 class SaleController extends Controller
 {
-    //
+    //constructor
      public $user;
 
     public function __construct()
