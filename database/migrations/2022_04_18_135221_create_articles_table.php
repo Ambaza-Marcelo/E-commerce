@@ -22,6 +22,7 @@ class CreateArticlesTable extends Migration
             $table->string('quantity');
             //unit price is not required
             $table->string('unit_price')->nullable(true);
+            //threshold quantity is not required
             $table->string('threshold_quantity')->nullable(true);
             $table->string('expiration_date')->nullable(true);
             $table->string('status');
