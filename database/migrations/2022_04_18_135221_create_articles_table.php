@@ -17,6 +17,7 @@ class CreateArticlesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('code');
+            //specification is not required
             $table->string('specification')->nullable(true);
             $table->string('quantity');
             $table->string('unit_price')->nullable(true);
