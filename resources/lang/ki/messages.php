@@ -1,5 +1,5 @@
 <?php
-
+//traduction en kirundi
 return[
 	'english' => 'Icongereza',
 	'french' => 'Igifaransa',
