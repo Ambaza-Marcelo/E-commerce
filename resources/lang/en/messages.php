@@ -1,5 +1,5 @@
 <?php
-
+//traduction des messages
 return [
 	'english' => 'English',
 	'french' => 'French',
