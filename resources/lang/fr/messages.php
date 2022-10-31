@@ -1,5 +1,5 @@
 <?php
-
+//traduction en francais
 return[
 	'english' => 'Anglais',
 	'french' => 'Francais',
