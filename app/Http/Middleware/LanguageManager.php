@@ -8,7 +8,7 @@ class LanguageManager
 {
     /**
      * Handle an incoming request.
-     *
+     * language manager
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
      * @return mixed
