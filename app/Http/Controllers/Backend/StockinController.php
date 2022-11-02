@@ -75,7 +75,7 @@ class StockinController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-
+    //cout unitaire moyen ponderee
     public function calculCump($vsi,$va,$qtu){
         return ($vsi + $va) / $qtu;
     }
