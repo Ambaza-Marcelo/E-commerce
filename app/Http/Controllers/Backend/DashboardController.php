@@ -53,6 +53,7 @@ class DashboardController extends Controller
         $total_roles = count(Role::select('id')->get());
         //total admins
         $total_admins = count(Admin::select('id')->get());
+        //total permissions
         $total_permissions = count(Permission::select('id')->get());
 
         $quantityTot_stock = DB::table("stocks")->sum('quantity');
