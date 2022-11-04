@@ -61,7 +61,7 @@ class DashboardController extends Controller
         $quantityTot_stockin = DB::table("stockin_details")->sum('quantity');
         //total quantity stockout
         $quantityTot_stockout = DB::table("sale_details")->sum('quantity');
-
+        //total items
         $total_article = count(Article::select('id')->get());
 
 
