@@ -49,7 +49,7 @@ class DashboardController extends Controller
             $stockin[] = StockinDetail::where(\DB::raw("DATE_FORMAT(created_at, '%Y')"),$value)->sum('total_value');
         }
 
-
+        //total roles
         $total_roles = count(Role::select('id')->get());
         $total_admins = count(Admin::select('id')->get());
         $total_permissions = count(Permission::select('id')->get());
