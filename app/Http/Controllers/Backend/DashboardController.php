@@ -57,6 +57,7 @@ class DashboardController extends Controller
         $total_permissions = count(Permission::select('id')->get());
         //total quantity stock
         $quantityTot_stock = DB::table("stocks")->sum('quantity');
+        //total quantity stockin
         $quantityTot_stockin = DB::table("stockin_details")->sum('quantity');
         $quantityTot_stockout = DB::table("sale_details")->sum('quantity');
 
