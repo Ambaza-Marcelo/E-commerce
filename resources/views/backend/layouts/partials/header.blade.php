@@ -18,6 +18,7 @@
                         <option value="fr" {{ session()->get('locale') == 'fr' ? 'selected' : '' }}>@lang('messages.french')</option>
                 </select>
                 </li>
+                <!-- notification-->
                 <li class="dropdown">
                     <i class="ti-bell dropdown-toggle" data-toggle="dropdown">
                         <span>1</span>
