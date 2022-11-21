@@ -113,21 +113,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::put('examen-e-commerce/orders/reception/{bon_no}','Backend\OrderController@reception')->name('admin.orders.reception');
 
 
-
-     Route::get('examen-e-commerce/categories/index', 'Backend\CategoryController@index')->name('admin.categories.index');
-    Route::get('examen-e-commerce/categories/create', 'Backend\CategoryController@create')->name('admin.categories.create');
-    Route::post('examen-e-commerce/categories/store', 'Backend\CategoryController@store')->name('admin.categories.store');
-    Route::get('examen-e-commerce/categories/edit/{id}', 'Backend\CategoryController@edit')->name('admin.categories.edit');
-    Route::put('examen-e-commerce/categories/update/{id}', 'Backend\CategoryController@update')->name('admin.categories.update');
-    Route::delete('examen-e-commerce/categories/destroy/{id}', 'Backend\CategoryController@destroy')->name('admin.categories.destroy');
-
-    Route::get('examen-e-commerce/category_rayons/index', 'Backend\CategoryRayonController@index')->name('admin.category_rayons.index');
-    Route::get('examen-e-commerce/category_rayons/create', 'Backend\CategoryRayonController@create')->name('admin.category_rayons.create');
-    Route::post('examen-e-commerce/category_rayons/store', 'Backend\CategoryRayonController@store')->name('admin.category_rayons.store');
-    Route::get('examen-e-commerce/category_rayons/edit/{id}', 'Backend\CategoryRayonController@edit')->name('admin.category_rayons.edit');
-    Route::put('examen-e-commerce/category_rayons/update/{id}', 'Backend\CategoryRayonController@update')->name('admin.category_rayons.update');
-    Route::delete('examen-e-commerce/category_rayons/destroy/{id}', 'Backend\CategoryRayonController@destroy')->name('admin.category_rayons.destroy');
-
     //Reports routes
     Route::get('examen-e-commerce/report/stock/day','Backend\ReportController@dayReport')->name('admin.report.stock.day');
     Route::get('examen-e-commerce/report/stock/month','Backend\ReportController@monthReport')->name('admin.report.stock.month');
@@ -148,7 +133,7 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::post('/admin/system/db-backup','Backend\SettingController@postDbBackUp'
     )->name('admin.system.dbBackup');
-
+    //page not found routes
     Route::get('/404/muradutunge/ivyomwasavye-ntibishoboye-kuboneka',function(){
         return view('errors.404');
 
