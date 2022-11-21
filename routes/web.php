@@ -51,7 +51,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 
 
-    //article routes
+    //items routes
     Route::get('examen-e-commerce/articles/index', 'Backend\ArticleController@index')->name('admin.articles.index');
     Route::get('examen-e-commerce/articles/create', 'Backend\ArticleController@create')->name('admin.articles.create');
     Route::post('examen-e-commerce/articles/store', 'Backend\ArticleController@store')->name('admin.articles.store');
