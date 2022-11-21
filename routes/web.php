@@ -76,7 +76,7 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::get('examen-e-commerce/stockin/generatepdf/{numero}','Backend\StockinController@bon_entree')->name('admin.stockin.bon_entree');
 
-    //stockout routes
+    //sales routes
     Route::get('examen-e-commerce/sales/index', 'Backend\SaleController@index')->name('admin.sales.index');
     Route::get('examen-e-commerce/sales/create', 'Backend\SaleController@create')->name('admin.sales.create');
     Route::post('examen-e-commerce/sales/store', 'Backend\SaleController@store')->name('admin.sales.store');
