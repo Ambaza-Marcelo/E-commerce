@@ -90,7 +90,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript">
-        //dynamic add more
+        //dynamic 
     var i = 0;
        
     $("#add").click(function(){
@@ -135,6 +135,7 @@
         $("#dynamicDiv").append(code_transaction,prix);
         $("#dynamicDiv2").append(telephone);
     }
+    //dynamic select
     if ($(this).val() === 'carte_visa'){
 
         var date = "<div class='form-group'>"+
