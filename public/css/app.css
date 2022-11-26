@@ -4,6 +4,9 @@
 #footer{
     text-align: center;
 }
+/*
+image hover change
+*/
 
 img:hover{
     width: 300px;
