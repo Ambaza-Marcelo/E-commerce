@@ -8,7 +8,7 @@
         </div>
     </div>
 @endif
-
+<!-- get success messages -->
 @if (Session::has('success'))
     <div class="alert alert-success">
         <div>
