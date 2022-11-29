@@ -2,6 +2,7 @@
  @php
      $usr = Auth::guard('admin')->user();
  @endphp
+ <!-- sidebar title -->
  <div class="sidebar-menu">
     <div class="sidebar-header">
         <div class="logo">
