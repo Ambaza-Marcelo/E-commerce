@@ -1,5 +1,5 @@
 
-<!-- footer area start-->
+<!-- footer designed by-->
 <footer>
     <div class="footer-area">
         <p>© Copyright {{date('Y')}}. @lang('messages.footer_admin').</p>
