@@ -58,6 +58,7 @@
                         </div>
                     </div>
                 </form>
+                <!-- display svg image-->
                 <img src="{{ asset('img/cloud_file.svg') }}" width="250">
             </div>
         </div>
