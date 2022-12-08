@@ -44,7 +44,6 @@
                     <h4 class="header-title float-left">Article List</h4>
                     <p class="float-right mb-2">
                         @if (Auth::guard('admin')->user()->can('article.create'))
-                            <a class="btn btn-success text-white" href="{{ route('admin.article.export') }}" title="Exporter en Excel"><i class="fa fa-file-excel-o"></i>&nbsp;Export</a>
                             <a class="btn btn-primary text-white" href="{{ route('admin.articles.create') }}">Create New</a>
                         @endif
                     </p>
