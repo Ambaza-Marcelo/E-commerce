@@ -5,6 +5,7 @@
 @endsection
 
 @section('error-content')
+<!--403 error -->
     <h2>403</h2>
     <p>@lang('messages.403')</p>
     <hr>
