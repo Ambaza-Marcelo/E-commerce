@@ -47,6 +47,7 @@
                             <label for="email">Client-Email</label>
                             <input type="text" class="form-control" id="email" name="email" placeholder="Entrer email du client">
                         </div>
+                        <!-- select payment mode lumicash or visa card -->
                         <div class="form-group">
                             <label for="paiement">mode de paiement</label>
                             <select class="form-control" name="paiement" id="paiement">
