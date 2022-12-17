@@ -84,7 +84,7 @@ class DashboardController extends Controller
         \App::setlocale($request->lang);
         session()->put("locale",$request->lang);
         event(new RealTimeMessage('Hello World'));
-
+        //real time event
         return redirect()->back();
     }
 }
