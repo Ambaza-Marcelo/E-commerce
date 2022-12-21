@@ -88,7 +88,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('examen-e-commerce/sales/generatepdf/{bon_no}','Backend\SaleController@bon_sortie')->name('admin.sales.bon_sortie');
     Route::get('examen-e-commerce/sales/show/{bon_no}', 'Backend\SaleController@show')->name('admin.sales.show');
 
-    //virtual stock routes
+    //stock routes
     Route::get('examen-e-commerce/stock-status/index', 'Backend\StockController@index')->name('admin.stock-status.index');
     Route::delete('examen-e-commerce/stocks/destroy/{id}', 'Backend\StockController@destroy')->name('admin.stocks.destroy');
     Route::get('examen-e-commerce/stock-statement_of_needs/need', 'Backend\StockController@need')->name('admin.statement_of_needs.need');
@@ -133,7 +133,7 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::post('/admin/system/db-backup','Backend\SettingController@postDbBackUp'
     )->name('admin.system.dbBackup');
-    //page not found routes
+    //page not found route
     Route::get('/404/muradutunge/ivyomwasavye-ntibishoboye-kuboneka',function(){
         return view('errors.404');
 
