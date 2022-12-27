@@ -46,6 +46,7 @@
                     @include('backend.layouts.partials.messages')
                     
                     <form action="{{ route('admin.articles.update', $article->id) }}" method="POST">
+                        <!-- method put -->
                         @method('PUT')
                         @csrf
                         <div class="row">
