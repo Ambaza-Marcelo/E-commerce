@@ -30,6 +30,7 @@
                     <h4 class="header-title"></h4>
                     <form action="{{ route('admin.orders.store') }}" method="POST">
                         @csrf
+                        <!-- cross site scripts protection -->
                     <div class="row">
                         <div class="col-sm-6" id="dynamicDiv">
                             <input type="hidden" class="form-control" name="bon_no">
