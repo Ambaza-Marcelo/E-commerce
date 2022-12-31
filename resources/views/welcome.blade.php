@@ -33,6 +33,7 @@
                         </div>
                         <div class="product-content">
                             <h4 class="content-title mb-15">{{$product->name}}&nbsp;<span>{{number_format($product->unit_price,0,' ',' ')}} fbu</span><br></h4>
+                            <!-- buy button by product id -->
                             <a href="{{ route('buy',$product->id)}}" class="btn btn-danger">Acheter <i class="lni-chevron-right"></i></a>
                         </div>
                     </div>
