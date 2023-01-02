@@ -15,7 +15,7 @@
     });
 
     /*================================
-    sidebar 
+    sidebar collapsing
     ==================================*/
     if (window.innerWidth <= 1364) {
         $(".page-container").addClass("sbar_collapsed");
