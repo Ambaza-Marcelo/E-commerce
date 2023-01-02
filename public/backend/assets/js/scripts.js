@@ -171,7 +171,7 @@
     slider_area();
 
     /*================================
-    Fullscreen Page
+    Fullscreen Page Api
     ==================================*/
 
     if ($("#full-view").length) {
