@@ -2,7 +2,7 @@
     "use strict";
 
     /*================================
-    Preloader
+    Preloader animation
     ==================================*/
 
     var preloader = $("#preloader");
@@ -15,7 +15,7 @@
     });
 
     /*================================
-    sidebar collapsing
+    sidebar 
     ==================================*/
     if (window.innerWidth <= 1364) {
         $(".page-container").addClass("sbar_collapsed");
