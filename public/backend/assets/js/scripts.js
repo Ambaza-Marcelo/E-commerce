@@ -137,7 +137,7 @@
     });
 
     /*================================
-    Owl Carousel
+    slide Carousel
     ==================================*/
     function slider_area() {
         var owl = $(".testimonial-carousel").owlCarousel({
