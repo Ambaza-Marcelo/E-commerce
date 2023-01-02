@@ -146,6 +146,7 @@
 .sidebar-menu .logo{
     text-align: center;
 }
+/*logo position */
 .logo a {
     display: inline-block;
     max-width: 120px;
