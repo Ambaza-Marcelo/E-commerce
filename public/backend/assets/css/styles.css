@@ -206,7 +206,7 @@
 .metismenu li ul {
     padding-left: 37px;
 }
-
+/* hover change background yellow linear gradient*/
 .metismenu >li:hover>a,
 .metismenu >li.active>a {
     color: #fff;
