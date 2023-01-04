@@ -97,6 +97,7 @@
                                                 @csrf
                                             </form>
                                         @endif
+                                        <!-- print if authorized user -->
                                         @if (Auth::guard('admin')->user()->can('stockin.create'))
                                         <a class="btn btn-success" href="{{ route('admin.stockin.bon_entree',$stockin->bon_no) }}">Imprimer</a>
                                         @endif
