@@ -85,7 +85,7 @@
                                         @if (Auth::guard('admin')->user()->can('stockin.edit'))
                                             <a class="btn btn-success text-white" href="{{ route('admin.stockins.edit', $stockin->bon_no) }}">Edit</a>
                                         @endif
-
+                                        <!-- destroy if authorized user -->
                                         @if (Auth::guard('admin')->user()->can('stockin.delete'))
                                             <a class="btn btn-danger text-white" href="{{ route('admin.stockins.destroy', $stockin->bon_no) }}"
                                             onclick="event.preventDefault(); document.getElementById('delete-form-{{ $stockin->bon_no }}').submit();">
