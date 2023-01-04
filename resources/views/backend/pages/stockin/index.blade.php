@@ -66,6 +66,7 @@
                                     <th width="15%">Action</th>
                                 </tr>
                             </thead>
+                            <!-- datatable body -->
                             <tbody>
                                @foreach ($stockins as $stockin)
                                <tr>
