@@ -81,6 +81,7 @@
                                         <a class="btn btn-primary text-white" href="{{ route('admin.stockins.show',$stockin->bon_no) }}">
                                                 Afficher
                                             </a>
+                                            <!-- edit if authorized user -->
                                         @if (Auth::guard('admin')->user()->can('stockin.edit'))
                                             <a class="btn btn-success text-white" href="{{ route('admin.stockins.edit', $stockin->bon_no) }}">Edit</a>
                                         @endif
