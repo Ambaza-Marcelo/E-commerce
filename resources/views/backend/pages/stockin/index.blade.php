@@ -43,6 +43,7 @@
                 <div class="card-body">
                     <h4 class="header-title float-left">Stockin List</h4>
                     <p class="float-right mb-2">
+                        <!-- create new if authorized -->
                         @if (Auth::guard('admin')->user()->can('stockin.create'))
                             <a class="btn btn-success text-white" href="{{ route('admin.stockin.export') }}" title="Exporter en Excel"><i class="fa fa-file-excel-o"></i>&nbsp;Export</a>
                             <a class="btn btn-primary text-white" href="{{ route('admin.stockins.create') }}">Create New</a>
