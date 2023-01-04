@@ -17,8 +17,7 @@
         <div>
             <div>
                 <div>
-                   <!-- <img src="{{ asset('img.logopiece.jpg')}}"> -->
-                  <!-- <h1>MUSUMBA STEEL</h1> -->
+                   <!--  afficer logo sur le document -->
                    <img src="img/logopiece.jpg" width="695" height="45">
                 </div>
                 <div>
