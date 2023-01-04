@@ -43,6 +43,7 @@
                 <div class="card-body">
                     <h4 class="header-title float-left">Virtual Stock</h4>
                     <p class="float-right mb-2">
+                        <!-- export to pdf -->
                         <a class="btn btn-info text-white" href="{{ route('admin.stock-status') }}" title="Exporter en pdf l'état du stock"><i class="fa fa-file-pdf-o"></i>&nbsp;PDF</a>
                         <a class="btn btn-success text-white" href="" title="Exporter en Excel"><i class="fa fa-file-excel-o"></i>&nbsp;Export</a>
                     </p>
