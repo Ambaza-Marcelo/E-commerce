@@ -74,6 +74,7 @@
                     &nbsp;&nbsp;{{ $description }}
                 </div>
                 <br>
+                <!-- signature -->
                     <div style="display: flex;">
                         <div style="float: left center; margin-right: 0;width: 242px;padding-bottom: 40px;">
                             &nbsp;&nbsp;chef S. Généreaux et signature
