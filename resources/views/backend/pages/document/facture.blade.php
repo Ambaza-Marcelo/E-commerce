@@ -67,6 +67,7 @@
                                 @endforeach
                             </tbody>
                             <tfoot>
+                                <!-- total value -->
                                 <tr>
                                     <th>Total</th>
                                     <th style="background-color: rgb(150,150,150);" colspan="3"></th>
