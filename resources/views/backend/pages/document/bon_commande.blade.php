@@ -35,7 +35,7 @@
                         <small>
                            &nbsp;&nbsp; No: {{ $code }}
                         </small><br>
-
+                        <!-- date -->
                         <small>
                            &nbsp;&nbsp; Date : Le {{ date('d') }}/{{date('m')}} / {{ date('Y')}}
                         </small>
