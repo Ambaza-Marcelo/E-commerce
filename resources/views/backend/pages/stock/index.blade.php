@@ -65,6 +65,7 @@
                                     <th width="10%">Action</th>
                                 </tr>
                             </thead>
+                            <!--data table body-->
                             <tbody>
                                @foreach ($stocks as $stock)
                                <tr>
