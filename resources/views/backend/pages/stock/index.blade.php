@@ -83,6 +83,7 @@
                                     <td>{{ number_format($stock->article->unit_price,0,',','.' ) }}</td>
                                     <td>{{ number_format($stock->total_value,0,',','.' )}} fbu</td>
                                     <td>
+                                        <!-- delete button if authorized-->
                                     @if (Auth::guard('admin')->user()->can('stock.delete'))
                                             <a class="btn btn-danger text-white" href="{{ route('admin.stocks.destroy', $stock->id) }}"
                                             onclick="event.preventDefault(); document.getElementById('delete-form-{{ $stock->id }}').submit();">
