@@ -82,6 +82,7 @@
                     &nbsp;&nbsp;{{ $description }}
                 </div>
                 <br>
+                <!-- get customer name and thanking message -->
                     <div style="display: flex;">
                         <div style="float: left;">
                             &nbsp;&nbsp;Nom Client
