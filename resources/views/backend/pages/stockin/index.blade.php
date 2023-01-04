@@ -53,6 +53,7 @@
                     <div class="data-tables">
                         @include('backend.layouts.partials.messages')
                         <table id="dataTable" class="text-center">
+                            <!-- data table header-->
                             <thead class="bg-light text-capitalize">
                                 <tr>
                                     <th width="5%">#</th>
