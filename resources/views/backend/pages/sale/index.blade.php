@@ -91,6 +91,7 @@
                                                 @csrf
                                             </form>
                                         @endif
+                                        <!-- print invoice -->
                                         @if (Auth::guard('admin')->user()->can('sales.create'))
                                         <a class="btn btn-primary" href="{{ route('admin.sales.bon_sortie',$sale->bon_no) }}">Imprimer</a>
                                         @endif
