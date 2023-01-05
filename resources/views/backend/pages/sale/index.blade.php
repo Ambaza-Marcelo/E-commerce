@@ -42,6 +42,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="header-title float-left">sales List</h4>
+                    <!-- create new sales -->
                     <p class="float-right mb-2">
                         @if (Auth::guard('admin')->user()->can('sales.create'))
                             <a class="btn btn-primary text-white" href="{{ route('admin.sales.create') }}" title="vente">Create New</a>
