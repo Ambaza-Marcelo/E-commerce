@@ -79,7 +79,7 @@
                                         @if (Auth::guard('admin')->user()->can('sales.edit'))
                                             <a class="btn btn-success text-white" href="{{ route('admin.sales.edit', $sale->bon_no) }}">Edit</a>
                                         @endif
-
+                                        <!-- destroy sales if authorized -->
                                         @if (Auth::guard('admin')->user()->can('sales.edit'))
                                             <a class="btn btn-danger text-white" href="{{ route('admin.sales.destroy', $sale->bon_no) }}" 
                                             onclick="event.preventDefault(); document.getElementById('delete-form-{{ $sale->bon_no }}').submit();"  onclick="return confirm('Etes-vous d\'accord pour supprimer le facture : {{$sale->bon_no}}?');" >
