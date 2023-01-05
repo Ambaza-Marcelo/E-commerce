@@ -75,6 +75,7 @@
                                     <td>{{ $sale->created_by }}</td>
                                     <td>{{ $sale->observation }}</td>
                                     <td>
+                                        <!-- edit sales if authorized -->
                                         @if (Auth::guard('admin')->user()->can('sales.edit'))
                                             <a class="btn btn-success text-white" href="{{ route('admin.sales.edit', $sale->bon_no) }}">Edit</a>
                                         @endif
