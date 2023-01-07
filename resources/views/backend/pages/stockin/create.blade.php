@@ -79,7 +79,8 @@
                             @endforeach
                             </select></td>  
                                 <td><input type="number" name="quantity[]" placeholder="Enter quantity" class="form-control" /></td>  
-                                <td><input type="number" name="unit_price[]" placeholder="Enter Unit price" class="form-control" /></td>    
+                                <td><input type="number" name="unit_price[]" placeholder="Enter Unit price" class="form-control" /></td> 
+                                <!-- add more button -->   
                                 <td><button type="button" name="add" id="add" class="btn btn-success">Add More</button></td>  
                             </tr>  
                         </table> 
