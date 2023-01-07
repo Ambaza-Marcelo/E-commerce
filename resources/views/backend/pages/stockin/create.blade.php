@@ -102,6 +102,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript">
     var i = 0;
+    //onclick add more
        
     $("#add").click(function(){
    
