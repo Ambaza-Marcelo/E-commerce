@@ -130,7 +130,7 @@
    
         $("#dynamicTable").append(markup);
     });
-   
+   //remove tr
     $(document).on('click', '.remove-tr', function(){  
          $(this).parents('tr').remove();
     }); 
