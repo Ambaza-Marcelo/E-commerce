@@ -31,14 +31,13 @@
     </div>
 </div>
 <!-- page title area end -->
-
 <div class="main-content-inner">
     <div class="row">
         <!-- data table start -->
         <div class="col-12 mt-5">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title float-left">Details des sorties sur bon de sortie No : {{ $code }}</h4>
+                    <h4 class="header-title float-left">Details des sorties sur No Facture : {{ $code }}</h4>
                     <div class="clearfix"></div>
                     <div class="data-tables">
                         @include('backend.layouts.partials.messages')
