@@ -39,6 +39,7 @@
                 <div class="card-body">
                     <h4 class="header-title float-left">Details des sorties sur No Facture : {{ $code }}</h4>
                     <div class="clearfix"></div>
+                    <!-- data tables -->
                     <div class="data-tables">
                         @include('backend.layouts.partials.messages')
                         <table id="dataTable" class="text-center">
