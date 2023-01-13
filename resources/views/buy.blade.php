@@ -69,7 +69,8 @@
                             <tr class="bg-warning">  
                                 <td><input type="text" name="article_id" value="{{$article->name}}" class="form-control" readonly="readonly" /></td> 
                                 <td><input type="text" name="article_id" value="{{$article->quantity}}" class="form-control" readonly="readonly" /></td> 
-                                <td><input type="number" name="quantity[]" value="1" class="form-control" min="1" /></td>      
+                                <td><input type="number" name="quantity[]" value="1" class="form-control" min="1" /></td> 
+                                <!-- add more products -->     
                                 <td><button type="button" name="add" id="add" class="btn btn-success">Ajouter plus</button></td>  
                             </tr>  
                         </table> 
