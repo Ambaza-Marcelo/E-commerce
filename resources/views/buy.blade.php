@@ -12,7 +12,7 @@
     <div class="container-fluid">
         <div class="container">
             <div style="text-align: center;">
-                <h1 class="alert alert-info">EXAMEN E-COMMERCE</h1>
+                <h1 class="alert alert-info">EXAMEN E-COMMERCE(UNIVERSITE DU LAC TANGANYIKA)</h1>
             </div>
             <ul class="" style="display: flex;list-style: none;text-decoration: none;">
                 <li style="margin-left: 30%;"><a href="{{ route('welcome')}}">Accueil</a></li>
