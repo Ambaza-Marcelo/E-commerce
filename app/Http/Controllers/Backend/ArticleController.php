@@ -15,6 +15,7 @@ use App\Models\Category;
 use App\Exports\ArticleExport;
 use App\Models\Stock;
 use App\Imports\ArticlesImport;
+//import excel package
 use Excel;
 class ArticleController extends Controller
 {
