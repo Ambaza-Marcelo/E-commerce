@@ -69,6 +69,7 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
+        //store order
 
         $rules = array(
                 'article_id'  => 'required',
