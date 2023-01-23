@@ -44,7 +44,7 @@ class OrderController extends Controller
         if (is_null($this->user) || !$this->user->can('order.view')) {
             abort(403, 'Sorry !! You are Unauthorized to view any order !');
         }
-
+        //get all orders
         $orders = Order::all();
         return view('backend.pages.order.index', compact('orders'));
     }
