@@ -26,6 +26,7 @@ class OrderController extends Controller
 
     public function __construct()
     {
+        //constructor
         $this->middleware(function ($request, $next) {
             $this->user = Auth::guard('admin')->user();
             return $next($request);
