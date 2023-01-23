@@ -108,7 +108,7 @@ class OrderController extends Controller
      */
     public function show($bon_no)
     {
-        //
+        //show order by order_number
          $code = Order::where('commande_no', $bon_no)->value('commande_no');
          $orders = Order::where('commande_no', $bon_no)->get();
          return view('backend.pages.order.show', compact('orders','code'));
