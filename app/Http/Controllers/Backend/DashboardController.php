@@ -14,6 +14,7 @@ use App\Models\Supplier;
 use App\Models\Article;
 use App\Models\StockinDetail;
 use App\Models\SaleDetail;
+//import realTimeMessage package
 use App\Events\RealTimeMessage;
 
 
