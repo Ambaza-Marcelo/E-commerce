@@ -13,6 +13,7 @@ class SettingController extends Controller
     //
      public function index()
     {
+        //all data from setting table
     	$settings = DB::table('settings')->orderBy('created_at','desc')->get();
     	return view('backend.pages.setting.index',compact('settings'));
     }
