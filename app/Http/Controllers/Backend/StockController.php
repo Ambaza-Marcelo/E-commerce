@@ -63,6 +63,7 @@ class StockController extends Controller
         return view('backend.pages.stock.need', compact('needs'));
     }
 
+    //export data to Excel
     public function get_stock_data()
     {
         return Excel::download(new StockExport, 'stocks.xlsx');
