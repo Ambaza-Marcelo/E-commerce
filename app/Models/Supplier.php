@@ -14,6 +14,7 @@ class Supplier extends Model
     	'address_id'
     ];
 
+    //belongs to address model
     public function address(){
     	return $this->belongsTo('App\Models\Address');
     }
