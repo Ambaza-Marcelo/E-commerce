@@ -18,7 +18,7 @@ class SaleDetail extends Model
         'total_value',
         'commande_no',
     ];
-
+    //belongs to article model
     public function article(){
     	return $this->belongsTo('App\Models\Article');
     }
