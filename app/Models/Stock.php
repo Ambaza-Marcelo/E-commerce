@@ -15,6 +15,8 @@ class Stock extends Model
     	'article_id'
     ];
 
+    //belongs to Article Model
+
     public function article(){
     	return $this->belongsTo('App\Models\Article');
     }
