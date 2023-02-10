@@ -13,6 +13,7 @@ class ArticlesImport implements ToModel
     *import xls file of items
     * @return \Illuminate\Database\Eloquent\Model|null
     */
+    //import items
     public function model(array $row)
     {
         return new Article([
