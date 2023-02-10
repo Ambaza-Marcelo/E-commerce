@@ -22,6 +22,7 @@ class StockinDetail extends Model
         'created_by',
         'origin'
     ];
+    //belongs to article model
 
     public function article(){
     	return $this->belongsTo('App\Models\Article');
