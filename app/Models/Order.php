@@ -16,7 +16,7 @@ class Order extends Model
         'description',
         'status'
     ];
-
+    //belongs to supplier model
     public function supplier(){
     	return $this->belongsTo('App\Models\Supplier');
     }
