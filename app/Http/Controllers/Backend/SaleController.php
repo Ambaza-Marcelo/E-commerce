@@ -201,7 +201,7 @@ class SaleController extends Controller
 
     /**
      * Display the specified resource.
-     *
+     *show all by invoice number
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
