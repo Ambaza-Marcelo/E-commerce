@@ -160,6 +160,8 @@ class SaleController extends Controller
                         'total_value' => $quantityRestant * $unit_price,
                         'created_by' => $this->user->name
                     );
+
+                    //if quantity is not enough
                     
                     if ($quantity[$count] <= $quantityStockInitial) {
 
