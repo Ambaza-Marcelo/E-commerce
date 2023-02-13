@@ -353,6 +353,7 @@ class SaleController extends Controller
         return back();
     }
 
+    //diplay invoice
     public function bon_sortie($bon_no)
     {
         if (is_null($this->user) || !$this->user->can('sales.create')) {
