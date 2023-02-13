@@ -39,7 +39,7 @@ class SaleController extends Controller
 
     /**
      * Display a listing of the resource.
-     *
+     *listing all sales
      * @return \Illuminate\Http\Response
      */
     public function index()
