@@ -71,7 +71,7 @@ class SaleController extends Controller
 
     /**
      * Store a newly created resource in storage.
-     *
+     *store sale
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
