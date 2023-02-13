@@ -55,7 +55,7 @@ class SaleController extends Controller
 
     /**
      * Show the form for creating a new resource.
-     *
+     *form for creating new sale
      * @return \Illuminate\Http\Response
      */
     public function create()
