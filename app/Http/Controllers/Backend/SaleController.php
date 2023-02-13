@@ -215,7 +215,7 @@ class SaleController extends Controller
 
     /**
      * Show the form for editing the specified resource.
-     *
+     *show from fro editing
      * @param  int  $bon_no
      * @return \Illuminate\Http\Response
      */
