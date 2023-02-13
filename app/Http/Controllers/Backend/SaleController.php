@@ -233,7 +233,7 @@ class SaleController extends Controller
 
     /**
      * Update the specified resource in storage.
-     *
+     *update sale
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $bon_no
      * @return \Illuminate\Http\Response
