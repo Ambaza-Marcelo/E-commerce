@@ -25,7 +25,7 @@ class OrderMail extends Mailable
 
     /**
      * Build the message by mail.
-     *
+     *send message by mail
      * @return $this
      */
     public function build()
